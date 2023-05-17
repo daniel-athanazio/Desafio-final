@@ -13,10 +13,10 @@ public class EmpresaModel {
     private EmpresaModel empresaModel;
     @ManyToOne
     @JoinColumn(name = "motorista_id")
-    private Motorista motorista;
+    private String motorista;
     @ManyToOne
     @JoinColumn(name = "suporte_id")
-    private Suporte suporte;
+    private String suporte;
 
 
 
